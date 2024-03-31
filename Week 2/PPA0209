@@ -1,0 +1,8 @@
+noOfCoinsWithMe = int(input("Enter the number of coins I have:"))
+share1 = int(input("Enter share1:"))
+share2 = int(input("Enter share2:"))
+share3 = int(input("Enter share3:"))
+if share1 > 0 and share2 > 0 and share3 > 0 and share1!=share2!=share3 and (noOfCoinsWithMe - share1 - share2 - share3 == 0):
+    print("FAIR")
+else:
+    print("UNFAIR")
